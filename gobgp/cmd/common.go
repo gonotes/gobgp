@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/osrg/gobgp/api"
-	"github.com/osrg/gobgp/packet"
+	"github.com/osrg/gobgp/packet/bgp"
 	"google.golang.org/grpc"
 	"net"
 	"os"
@@ -456,6 +456,8 @@ func checkAddressFamily(def bgp.RouteFamily) (bgp.RouteFamily, error) {
 		rf = bgp.RF_FS_IPv4_UC
 	case "ipv6-flowspec", "ipv6-flow", "flow6":
 		rf = bgp.RF_FS_IPv6_UC
+	case "l2vpn-flowspec":
+		rf = bgp.RF_FS_L2_VPN
 	case "opaque":
 		rf = bgp.RF_OPAQUE
 	case "":
