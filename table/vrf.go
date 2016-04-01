@@ -17,7 +17,7 @@ package table
 
 import (
 	api "github.com/osrg/gobgp/api"
-	"github.com/osrg/gobgp/bgp"
+	"github.com/osrg/gobgp/packet"
 )
 
 type Vrf struct {

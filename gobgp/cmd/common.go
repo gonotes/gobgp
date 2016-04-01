@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/osrg/gobgp/api"
-	"github.com/osrg/gobgp/bgp"
+	"github.com/osrg/gobgp/packet"
 	"google.golang.org/grpc"
 	"net"
 	"os"

@@ -2,7 +2,7 @@ package config
 
 import (
 	"fmt"
-	"github.com/osrg/gobgp/bgp"
+	"github.com/osrg/gobgp/packet"
 	"github.com/spf13/viper"
 	"net"
 )

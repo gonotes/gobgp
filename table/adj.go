@@ -16,7 +16,7 @@
 package table
 
 import (
-	"github.com/osrg/gobgp/bgp"
+	"github.com/osrg/gobgp/packet"
 	"reflect"
 )
 

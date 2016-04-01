@@ -18,7 +18,7 @@ package table
 import (
 	"bytes"
 	log "github.com/Sirupsen/logrus"
-	"github.com/osrg/gobgp/bgp"
+	"github.com/osrg/gobgp/packet"
 	"hash/fnv"
 )
 

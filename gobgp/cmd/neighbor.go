@@ -20,7 +20,7 @@ import (
 	"fmt"
 	api "github.com/osrg/gobgp/api"
 	"github.com/osrg/gobgp/config"
-	"github.com/osrg/gobgp/bgp"
+	"github.com/osrg/gobgp/packet"
 	"github.com/spf13/cobra"
 	"golang.org/x/net/context"
 	"io"
